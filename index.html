@@ -8,26 +8,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO Meta Tags -->
-  <title>Loise Anono - Energy Efficiency Expert | HVAC Efficiency & Smart Monitoring</title>
-  <meta name="description" content="Energy efficiency enthusiast specializing in appliance efficiency, HVAC optimization and energy consumption analysis. Experienced in Measurement and Verification (M&V frameworks), ISO 50001, energy monitoring with AI and ML integration and techno-economic analysis across East Africa.">
-  <meta name="keywords" content="energy efficiency, HVAC analysis, measurement and verification, M&V, real-time monitoring, smart meters, appliance efficiency, energy audits, techno-economic analysis, cooling system efficiency in Africa, lighting efficiency, Kenya, Tanzania, Loise Anono">
+  <title>Loise Anono - Energy Efficiency Expert | M&V, HVAC Analysis & Smart Meters</title>
+  <meta name="description" content="Energy engineer specializing in appliance efficiency, HVAC optimization, and energy audits. Experienced in M&V protocols, smart meter deployment, and techno-economic analysis across East Africa.">
+  <meta name="keywords" content="energy efficiency, HVAC analysis, measurement and verification, M&V, smart meters, appliance efficiency, energy audits, techno-economic analysis, cooling systems, lighting efficiency, Kenya, Tanzania, Loise Anono">
   <meta name="author" content="Loise Anono">
-
+  
   <!-- Open Graph for Social Media Sharing -->
   <meta property="og:title" content="Loise Anono - Energy Efficiency Expert">
-  <meta property="og:description" content="Specializing in appliance efficiency, real-time monitoring and energy audits with proven results across East Africa.">
+  <meta property="og:description" content="Specializing in appliance efficiency, HVAC optimization, and energy audits with proven results across East Africa.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://loiseanono.github.io/Energy-Efficiency_Portfolio/">
+  <meta property="og:url" content="https://loiseanono.github.io/Energy-Portfolio/">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Loise Anono - Energy Efficiency Expert">
-  <meta name="twitter:description" content="Energy efficiency enthusiast with expertise in M&V, HVAC analysis, and smart meter deployment.">
+  <meta name="twitter:description" content="Energy engineer with expertise in M&V, HVAC analysis, and smart meter deployment.">
   
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://loiseanono.github.io/Energy-Efficiency_Portfolio/">
+  <!-- Canonical URL (prevents duplicate content issues) -->
+  <link rel="canonical" href="https://loiseanono.github.io/Energy-Portfolio/">
   
-  <!-- Favicon -->
+  <!-- Favicon (add your icon file) -->
   <link rel="icon" type="image/png" href="favicon.png">
   
   <!-- Schema.org Structured Data for SEO -->
@@ -37,18 +37,19 @@
     "@type": "Person",
     "name": "Loise Anono",
     "jobTitle": "Energy Efficiency Expert",
-    "description": "Energy engineer specializing in appliance efficiency, HVAC optimization, M&V protocols and smart meter deployment",
+    "description": "Energy engineer specializing in appliance efficiency, HVAC optimization, M&V protocols, and smart meter deployment",
     "email": "anonoloise@gmail.com",
-    "url": "https://loiseanono.github.io/Energy-Efficiency_Portfolio/",
+    "url": "https://loiseanono.github.io/Energy-Portfolio/",
     "sameAs": [
       "http://www.linkedin.com/in/loise-anono-282455278"
     ],
     "knowsAbout": [
       "Energy Efficiency",
       "HVAC Optimization",
-      "Energy Audits and Measurement and Verification (M&V)",
-      "Smart Meters (Real-Time Monitoring)",
+      "Measurement and Verification",
+      "Smart Meters",
       "Appliance Efficiency",
+      "Energy Audits",
       "Techno-Economic Analysis"
     ]
   }
@@ -57,14 +58,14 @@
   <style>
     /* CSS Variables for easy customization */
     :root {
-      --primary-color: #1e88e5;      /* Professional Blue */
-      --secondary-color: #ff9800;    /* Vibrant Orange */
-      --dark-bg: #0B132B;            /* Dark navy background */
-      --light-bg: #ffffff;           /* White background */
-      --text-dark: #2c3e50;          /* Dark text */
-      --text-light: #6b7280;         /* Light gray text */
-      --border-color: #e3f2fd;       /* Light blue border */
-      --hover-color: #26a69a;        /* Teal hover */
+      --primary-color: #2ECC71;
+      --secondary-color: #FFA559;
+      --dark-bg: #0B132B;
+      --light-bg: #ffffff;
+      --text-dark: #2c3e50;
+      --text-light: #6b7280;
+      --border-color: #e5e7eb;
+      --hover-color: #27ae60;
     }
     
     /* Reset and base styles */
@@ -140,7 +141,7 @@
       max-width: 700px;
     }
     
-    /* Profile image */
+    /* Profile image (when you add it) */
     header img {
       position: absolute;
       top: 20px;
@@ -150,7 +151,7 @@
       border-radius: 50%;
       border: 4px solid var(--primary-color);
       object-fit: cover;
-      box-shadow: 0 4px 12px rgba(30, 136, 229, 0.3);
+      box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
     }
     
     /* Main content area */
@@ -170,6 +171,28 @@
       padding-bottom: 10px;
       border-bottom: 3px solid var(--primary-color);
       display: inline-block;
+    }
+    
+    /* Skills/Expertise section */
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    
+    .skill-item {
+      background: #f8fafb;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border-left: 4px solid var(--primary-color);
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    
+    .skill-item:hover {
+      background: #e8f5e9;
+      transform: translateX(5px);
     }
     
     /* Project cards */
@@ -196,7 +219,7 @@
     
     .project:hover {
       border-color: var(--primary-color);
-      box-shadow: 0 8px 24px rgba(30, 136, 229, 0.15);
+      box-shadow: 0 8px 24px rgba(46, 204, 113, 0.15);
       transform: translateY(-4px);
     }
     
@@ -255,7 +278,7 @@
     .btn:hover {
       background: var(--hover-color);
       transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(30, 136, 229, 0.3);
+      box-shadow: 0 6px 16px rgba(46, 204, 113, 0.3);
     }
     
     .btn:focus {
@@ -265,7 +288,7 @@
     
     /* Contact section */
     .contact {
-      background: linear-gradient(135deg, #f8fafb, #e3f2fd);
+      background: linear-gradient(135deg, #f8fafb, #e8f5e9);
       padding: 30px;
       border-radius: 12px;
       border: 2px solid var(--primary-color);
@@ -349,6 +372,10 @@
       .btn {
         width: 100%;
       }
+      
+      .skills {
+        grid-template-columns: 1fr;
+      }
     }
     
     /* Print styles */
@@ -368,19 +395,35 @@
   </style>
 </head>
 <body>
-  <!-- Skip to main content link -->
+  <!-- Skip to main content link for keyboard users -->
   <a href="#main-content" class="skip-link">Skip to main content</a>
   
   <div class="container">
-    <!-- Header -->
+    <!-- Header with your info -->
     <header role="banner">
+      <!-- Add your photo here: <img src="your-photo.jpg" alt="Loise Anono - Energy Efficiency Expert"> -->
       <h1>Loise Anono</h1>
       <p class="subtitle">Energy Efficiency Expert</p>
-      <p>Specializing in <strong>Measurement and Verification (M&V)</strong>, <strong>Energy Efficiency</strong>, <strong>HVAC Optimization</strong> with <strong>Data-Driven Insights</strong>, for appliance and equipment efficiency across East Africa.</p>
+      <p>Specializing in <strong>Measurement and Verification (M&V)</strong>, <strong>Energy Audits</strong>, <strong>HVAC Optimization</strong>, and <strong>Data-Driven Insights</strong> for appliance and equipment efficiency across East Africa.</p>
     </header>
     
     <!-- Main content -->
     <main id="main-content" role="main">
+      
+      <!-- Expertise Section -->
+      <section aria-labelledby="expertise-heading">
+        <h2 id="expertise-heading">Core Expertise</h2>
+        <div class="skills">
+          <div class="skill-item">Measurement & Verification (M&V)</div>
+          <div class="skill-item">Energy Audits</div>
+          <div class="skill-item">HVAC Analysis & Optimization</div>
+          <div class="skill-item">Smart Meter Deployment</div>
+          <div class="skill-item">Appliance Efficiency</div>
+          <div class="skill-item">Techno-Economic Analysis</div>
+          <div class="skill-item">Data Analysis & Reporting</div>
+          <div class="skill-item">Carbon Emission Tracking</div>
+        </div>
+      </section>
       
       <!-- Projects Section -->
       <section aria-labelledby="projects-heading">
@@ -401,9 +444,9 @@
             <strong>Key Results:</strong> Identified opportunities for 10%+ cost reduction while improving lighting quality and reducing maintenance requirements.
           </p>
           <div class="button-group">
-            <a href="Energy Efficiency in Lighting_Analysis.pdf" 
+            <a href="lighting-analysis.pdf" 
                target="_blank" 
-               class="btn"
+               class="btn" 
                aria-label="Download PDF report: Energy Efficiency in Lighting Analysis"
                download>
               📄 Lighting Analysis Report
@@ -413,28 +456,30 @@
         
         <!-- Project 2 -->
         <article class="project">
-          <h3>Cooling System Efficiency Analysis</h3>
+          <h3>HVAC System Efficiency Analysis</h3>
           <div class="project-meta">
-            <span>❄️ <strong>System:</strong> Cooling</span>
+            <span>❄️ <strong>System:</strong> Cooling & HVAC</span>
             <span>📉 <strong>Reduction:</strong> 10% energy use</span>
             <span>💰 <strong>ROI:</strong> < 2 years</span>
           </div>
           <p>
-            In-depth analysis of air conditioning systems focusing on equipment optimization, control strategies and efficiency. Evaluated system sizing, refrigerant management, and operational schedules to identify efficiency improvements.
+            In-depth analysis of heating, ventilation, and air conditioning (HVAC) systems focusing on equipment optimization, control strategies, and maintenance protocols. Evaluated system sizing, refrigerant management, and operational schedules to identify efficiency improvements.
           </p>
           <p>
             <strong>Key Findings:</strong> Documented pathways to 10% energy reduction through no-cost operational adjustments and low-cost equipment upgrades, with additional reductions in carbon emissions.
           </p>
           <div class="button-group">
-            <a href="Energy Efficiency in Cooling_Analysis.pdf" 
+            <a href="hvac-analysis.pdf" 
                target="_blank" 
-               class="btn"
-               aria-label="Download PDF report: Cooling System Efficiency Analysis"
+               class="btn" 
+               aria-label="Download PDF report: Energy Efficiency in Cooling and HVAC Analysis"
                download>
               📄 HVAC Analysis Report
             </a>
           </div>
         </article>
+        
+        <!-- Add more projects here as you develop them -->
         
       </section>
       
@@ -451,8 +496,8 @@
             <span>LinkedIn: <a href="http://www.linkedin.com/in/loise-anono-282455278" 
                                target="_blank" 
                                rel="noopener noreferrer"
-                               aria-label="Visit Loise Anono's LinkedIn profile">
-              LinkedIn Profile
+                               aria-label="Visit Loise Anono's LinkedIn profile (opens in new tab)">
+              View Professional Profile
             </a></span>
           </div>
         </div>
@@ -462,8 +507,8 @@
     
     <!-- Footer -->
     <footer role="contentinfo">
-      <p>&copy; 2026 Loise Anono. Energy Efficiency Expert specializing in Cooling, Lighting efficiency and Smart monitoring.</p>
-      <p>Based in Nairobi, Kenya | Serving Africa</p>
+      <p>&copy; 2026 Loise Anono. Energy Efficiency Expert specializing in M&V, HVAC Analysis, and Smart Meters.</p>
+      <p>Based in Nairobi, Kenya | Serving East Africa</p>
     </footer>
     
   </div>
